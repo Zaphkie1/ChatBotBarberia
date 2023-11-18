@@ -45,6 +45,14 @@ const flowservicios = addKeyword('servicios').addAnswer(
     ]
 );
 
+// Respuestas de servicios
+const flowservicios2 = addKeyword('servicios').addAnswer(
+    [
+        'Servicios en espera del cliente',
+        '\n\n 👉 Escribe *menu* para volver al menu principal.'
+    ]
+);
+
 // Respuestas de bienvenida y enlace a servicios, ubicación, horarios y generación de cita
 const flowPrincipal = addKeyword(['hola', 'bienvenido', 'saludo', 'menu']).addAnswer(
     [
