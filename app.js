@@ -24,7 +24,7 @@ const flowHorarios = addKeyword(['horarios', 'atencion']).addAnswer(
         'Domingo: 12:00 AM - 4:00 PM',
         '\n\n 👉 Escribe *menu* para volver al menu principal.'
     ]
-);
+);;
 // Respuestas relacionadas con la ubicacion
 const flowUbicacion = addKeyword(['ubicacion', 'direccion', 'contacto']).addAnswer(
     [
